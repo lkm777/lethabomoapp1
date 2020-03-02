@@ -1,0 +1,54 @@
+	<ion-view view-title=" Menu" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll  id="page-slide_tab_menu" class=" page-slide_tab_menu">
+		
+	<div style="width: 100%;height:100%;">
+		<ion-slide-box class="ion-slide-tabs" slide-tabs-scrollable="false" show-pager="false" ion-slide-tabs>
+			<ion-slide ion-slide-tab-label="Menu" >
+					<ion-content scroll="false" class="slidingTabContent">
+						<div class="list">
+							<a class="item item-icon-left" ng-href="#/lethabo_mo/about_me" >
+								<i class="icon ion-android-contact" ></i>
+								<h2>{{ "About Me" | translate }}</h2>
+								<span class="item-note pull-left">I design and code beatiful things and i love what i do.</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/lethabo_mo/portfolio" >
+								<i class="icon ion-briefcase" ></i>
+								<h2>{{ "portforlio" | translate }}</h2>
+								<span class="item-note pull-left">A few recent design and coding projects.</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/lethabo_mo/contact_me" >
+								<i class="icon ion-email" ></i>
+								<h2>{{ "Contact Me" | translate }}</h2>
+								<span class="item-note pull-left">Do not hestitate to contact me.</span>
+							</a>
+						</div>
+					</ion-content>
+			</ion-slide>
+			<ion-slide ion-slide-tab-label="Help" >
+					<ion-content scroll="false" class="slidingTabContent">
+						<div class="list">
+							<a class="item item-icon-left" ng-href="#/lethabo_mo/terms_and_conditions" >
+								<i class="icon ion-document-text" ></i>
+								<h2>{{ "T's &amp; C's" | translate }}</h2>
+								<span class="item-note pull-left">Terms and Conditions</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/lethabo_mo/faqs" >
+								<i class="icon ion-ios-help-outline" ></i>
+								<h2>{{ "Faq" | translate }}</h2>
+								<span class="item-note pull-left">Frequently asked questions</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/lethabo_mo/location" >
+								<i class="icon ion-map" ></i>
+								<h2>{{ "Location" | translate }}</h2>
+								<span class="item-note pull-left"></span>
+							</a>
+						</div>
+					</ion-content>
+			</ion-slide>
+		</ion-slide-box>
+	</div>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
