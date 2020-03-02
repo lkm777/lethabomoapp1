@@ -1,18 +1,22 @@
-
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Lethabo Mo",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://lethabomoapp.netlify.com/",
+    "short_name": "Lethabo Mo",
+    "theme_color": "black",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
         {
-          "name": "Lethabo Mo Lite",
-          "short_name": "Lethabo Mo",
-          "start_url": "index.html",
-          "display": "standalone",
-          "icons":[{"src": "data/images/header/logo1.png"}],
-          "prefer_related_applications": true,
-          "related_applications": [
-            {
-              "platform": "play",
-              "id": "com.imabuilder.lethabomo.lethabomo"
-            }
-          ],
-         "background_color": "#ffffff",
-         "theme_color": "#000000"
+            "src": "/images/images/splash/splash-icon.png",
+            "sizes": "114x114",
+            "type": "image/png"
         }
-                
+    ]
+}
